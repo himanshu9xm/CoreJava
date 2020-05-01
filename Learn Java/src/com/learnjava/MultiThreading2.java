@@ -1,4 +1,4 @@
-//Using multi-Threading using Interfaces
+//Implementing multi-Threading using Interfaces
 package com.learnjava;
 
 class A implements Runnable{
