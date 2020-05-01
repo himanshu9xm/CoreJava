@@ -4,7 +4,7 @@ class A extends Thread{
 	public void run() {
 		for(int i=0;i<5;i++) {
 			System.out.println("Thread 1");
-			try {Thread.sleep(500); } catch(Exception e) { System.err.println("Error");}
+			try {Thread.sleep(500); } catch(Exception e) { System.err.println("Error in thread 1");}
 		}
 	}
 }
@@ -13,7 +13,7 @@ class B extends Thread{
 	public void run() {
 		for(int i=0;i<5;i++) {
 			System.out.println("Thread 2");
-			try {Thread.sleep(500); } catch(Exception e) { System.err.println("Error");}
+			try {Thread.sleep(500); } catch(Exception e) { System.err.println("Error in thread 2");}
 		}
 	}
 }
