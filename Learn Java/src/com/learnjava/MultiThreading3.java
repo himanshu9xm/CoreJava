@@ -1,7 +1,13 @@
 //Implementing Multi-Threading using Interfaces, Anonymous Class and Lambda Expressions
 package com.learnjava;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 public class MultiThreading3 {
+
+	private static final String Bufferreader = null;
 
 	public static void main(String[] args) {
 		
@@ -21,5 +27,8 @@ public class MultiThreading3 {
 		});	
 		t1.start();
 		t2.start();
+		InputStream in;
+		BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+		
 	}
 }
