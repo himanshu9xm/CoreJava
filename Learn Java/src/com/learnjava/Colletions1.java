@@ -16,7 +16,7 @@ public class Colletions1 {
 		SortedSet<Integer> Arr2 = new TreeSet<Integer>();
 		Arr2.add(100); Arr2.add(1); Arr2.add(510); Arr2.add(118); Arr2.add(118);
 		System.out.println(Arr2);
-		
+		System.out.println();
 		
 
 	}
