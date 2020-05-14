@@ -1,3 +1,4 @@
+//Implementing concept of Anonymous class in java
 package com.learnjava;
 @FunctionalInterface
 interface Write{
